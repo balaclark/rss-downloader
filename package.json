@@ -1,0 +1,25 @@
+{
+  "name": "rss-auto-downloader",
+  "description": "Auto downloads RSS enclosures.",
+  "version": "0.0.0",
+  "scripts": {
+    "pretest": "standard .",
+    "test": "istanbul cover _mocha test",
+    "posttest": "(istanbul check-coverage --statements 90 --branches 90 --functions 100 --lines 90 && rm -rf coverage) || echo Look at 'coverage/lcov-report/index.html' to find out more"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "author": "Bala Clark <balaclark@gmail.com>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.3.19",
+    "mocha": "^2.3.2",
+    "standard": "^5.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:balaclark/rss-auto-downloader.git"
+  }
+}
