@@ -13,6 +13,12 @@ npm install --global rss-auto-downloader
 
 ## Usage
 
+```
+rss-downloader -u <rss feed url> -d <download directory>
+```
+
+If left running new additions to the RSS feed will be picked up and downloaded.
+
 ## Credits
 [Bala Clark](https://github.com/balaclark/)
 
